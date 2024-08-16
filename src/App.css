@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-size: 14px;
+}
+
+body {
+  background-color: #212121;
+}
+
+.checkbox-custom {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+  margin-right: 0.5rem; /* Adjust margin if needed */
+}
